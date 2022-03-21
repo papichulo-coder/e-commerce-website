@@ -1,0 +1,93 @@
+.heading{
+     text-align: center;
+     text-decoration: wavy;
+     font-weight: 400px;
+     font-family: 'Bebas Neue', cursive;
+     background-color: black;
+     color: white;
+     
+
+}
+.menu{
+     list-style-type: none;
+
+}
+
+li{
+     display: inline;
+}
+a{
+     float: center;
+     text-align: right;
+     text-decoration: none;
+     padding-left: 20px;
+     font-size: 25px;
+     font-weight: 100;
+     line-height: 35px;
+     color: black;
+     font-family: 'Raleway', sans-serif;
+      margin-right: 20px;
+      text-align: center;
+      transition: 0.5; 
+}
+.first{
+     position: relative;
+
+}
+.somto{
+     position: absolute;
+     top: 8%;
+     padding-left: 20%;
+     font-weight: 400px;
+     font-size: 80px;
+     text-align: center;
+     
+     
+
+}
+a:hover{
+     
+     background-color: rgb(92, 221, 178); ;
+}
+.sam{
+     font-family: 'Libre Baskerville', serif;
+text-align: center;
+     color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+.dis{
+     text-align: center;
+     font-family: 'Libre Baskerville', serif;
+text-align: center;
+     color: black;
+}
+
+.spot1w{
+
+     font-family: 'Libre Baskerville', serif;
+  display: flex;
+     color: black;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kurale&family=Libre+Baskerville&family=Raleway:ital,wght@1,100&display=swap');
+
+
+
+
+.spot2w{
+     
+     font-family: 'Libre Baskerville', serif;
+
+     color: black;
+}
+.pole{
+     display: flex;
+     justify-content: space-between;
+   
+   
+}
+.try>good{
+     padding-top: -20px;
+}
+

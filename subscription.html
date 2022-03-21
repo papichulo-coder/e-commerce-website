@@ -1,0 +1,115 @@
+<html lang="en" class="type">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscription</title>
+    <style>
+        p{
+            font-weight:bold;
+            font-size: 15px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: rgb(206, 225, 228);
+        }
+        h1{
+            font-weight: 300;
+            color: rgb(124, 107, 107);
+
+        }
+        #nm{
+            font: bold 14px "Raleway",Arial,sans-serif;
+        }
+        #email{
+            font: bold 14px "Raleway",Arial,sans-serif;
+        }
+        input[type=text]{
+            border-radius: 20px;
+            background-color: white;
+            height: 40px;
+            width: 400px;
+            margin-right: 20px;
+            margin-left: 20px;
+
+
+
+        }
+        input[type=email]{
+            border-radius: 20px;
+            background-color: white; 
+            height: 40px;
+            width: 400px;
+            margin-left: 20px;
+
+        }
+        input[type=text]:focus{
+                border-radius: 20px;
+                background-color: #D6EAF8;
+                
+        }
+        input[type=email]:focus{
+                border-radius: 20px;
+                background-color: #D6EAF8;
+        }
+        button{
+            border-radius: 20px;
+            background-color: rgb(26, 126, 26);
+            color: white;
+            height: 40px;
+            width: 200px;
+        }
+     
+        div{
+            text-align: center;
+            background-color: aqua;
+            margin: 50px;
+            padding: 20px;
+            border-radius: 50px;
+            background: #e0e0e0;
+            box-shadow:  31px 31px 63px #bebebe,
+             -31px -31px 63px #ffffff;
+        }
+        input[type=submit]:hover{
+              background-color: rgb(53, 201, 53);
+        }
+        input[type=submit]{
+            border-radius: 20px;
+            background-color: rgb(26, 126, 26);
+            color: white;
+            height: 40px;
+            width: 200px;
+        }
+        a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: right;
+    color: black;
+    margin-left: 480px;
+    text-decoration: none;
+}
+
+    </style>
+    <script>
+        function mysubmit(){
+             //console.log("you have subscribed to our newsletter");   
+             var reply = confirm("Do you want to submit these data now?");
+             return reply;
+        }
+    </script>
+</head>
+<body>
+    <div>
+    <form method="POST" action="subscription_pro.php" autocomplete="off" onSubmit="return mysubmit()">
+        <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <P>we are not scammers. your email is safe with us</P>
+        <input type="text" id="nm" name="nm" placeholder="enter your name"><br><br>
+        <input type="email"  id="email" name="email" placeholder="enter your email"><br><br>
+        <input type="submit" value="Subscribe"><br>
+        
+    </form>
+    </div>
+    <a href="new home page.html">click here to go to home page</a>
+</body>
+</html>
